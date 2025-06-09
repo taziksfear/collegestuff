@@ -4,7 +4,11 @@ words = {
     'cat': 'кот',
     'dog': 'собака',
     'book': 'книга',
-    'water': 'вода'
+    'water': 'вода',
+    'sun': 'солнце',
+    'tree': 'дерево',
+    'car': 'машина',
+    'city': 'город'
 }
 
 rus_words = {v: k for k, v in words.items()}
