@@ -5,7 +5,7 @@ def create_connection():
     conn = None
     try:
         conn = sqlite3.connect('internet_shop.db')
-        print(f"Подключение к SQLite успешно, версия SQLite: {sqlite3.version}")
+        print(f"Подключение к SQLite успешно")
         return conn
     except Error as e:
         print(f"Ошибка при подключении к SQLite: {e}")
